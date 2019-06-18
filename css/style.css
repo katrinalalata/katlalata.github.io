@@ -1,39 +1,79 @@
-p {
-  font-size: 16px;
-  font: Raleway;
+html {
+font-size: 10px;
 }
 
-Section {
-margin-top: ;
+body {
+background-color: ffffff;
+}
+
+
+p {
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+  line-height: 24px;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+}
+
+section {
+margin-top: 65px;
 padding: ;
 }
 
+.head {
+  margin: 0 auto;
+  width: 550px;
+}
+.img {
+center;
+}
 
 .container {
 margin: 0 auto;
-width: ;
+width: 550px;
 }
 
 /* Dropdown Button */
 .dropbtn {
-
+  background-color: #ffffff;
+  color: white;
+  padding: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16px;
   border: none;
 }
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
-  position: relative;
-  display: inline-block;
+width: 550px;
 }
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
   display: none;
-  position: absolute;
-  background-color: #f1f1f1;
+  background-color: #ffffff;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+  position: relative;
 }
 
 /* Links inside the dropdown */
@@ -51,4 +91,4 @@ width: ;
 .dropdown:hover .dropdown-content {display: block;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown:hover .dropbtn {}
