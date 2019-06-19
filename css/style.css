@@ -65,7 +65,7 @@ li {
 
 .container {
 margin: 0 auto;
-padding: 50px;
+padding: 20px;
 /*width: 500px;*/
 }
 
@@ -93,7 +93,7 @@ width: 200px;
   background-color: #ffffff;
   min-width: 160px;
   /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
-  position: relative;
+  position: absolute;
 }
 
 /* Links inside the dropdown */
