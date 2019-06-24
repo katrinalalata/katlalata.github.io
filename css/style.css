@@ -94,6 +94,12 @@ padding: 20px;
 /*width: 500px;*/
 }
 
+section.connect {
+margin: 0 auto;
+padding: 50px;
+/*width: 500px;*/
+}
+
 /* Dropdown Button */
 .dropbtn {
   background-color: #ffffff;
@@ -140,6 +146,8 @@ width: 200px;
 
   a {
     color: #000000;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
   }
 
   a:hover {
