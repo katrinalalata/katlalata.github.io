@@ -49,13 +49,12 @@ h3 {
   margin: 0 auto;
 }
 
-section {
-margin-top: 65px;
-padding: ;
+@media screen and (min-width: 575px) {
+img {
+  max-width: 100%;
+  height: auto;
 }
-
-/*section.hero {
-  max-width: 0.1em;*/
+}
 }
 
 li {
