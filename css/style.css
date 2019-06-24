@@ -11,7 +11,8 @@ p {
   font-size: 16px;
   font-family: "Raleway", sans-serif;
   line-height: 24px;
-  width: 750px;
+  max-width: 750px;
+  width: 100%;
   margin: 0 auto;
   text-align: left;
   padding: 20px;
@@ -22,18 +23,20 @@ h1 {
   font-size: 36px;
   letter-spacing: 10px;
   text-align: center;
-  width: 750px;
+  max-width: 750px;
+  width: 100%;
   margin: 0 auto;
   padding: 20px;
 }
 
 h2 {
   font-family: "Josefin Sans", sans-serif;
-  font-size: 24px;
+  font-size: 30px;
   letter-spacing: 10px;
   line height: 24px;
   text-align: center;
-  width: 750px;
+  max-width: 750px;
+  width: 100%;
   margin: 0 auto;
   padding: 20px;
 }
@@ -41,13 +44,18 @@ h2 {
 h3 {
   font-family: "Josefin Sans", sans-serif;
   font-size: 18px;
-  width: 750px;
+  max-width: 750px;
+  width: 100%;
   margin: 0 auto;
 }
 
 section {
 margin-top: 65px;
 padding: ;
+}
+
+/*section.hero {
+  max-width: 0.1em;*/
 }
 
 li {
@@ -58,6 +66,21 @@ li {
   width: 750px;
   margin: 0 auto;
 }
+
+ul.a {
+  list-style-type: circle;
+}
+
+ul{
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+  line-height: 24px;
+  max-width: 750px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;
+  padding: 20px;
+ }
 
 .head {
   margin: 0 auto;
