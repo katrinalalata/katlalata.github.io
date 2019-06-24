@@ -6,7 +6,6 @@ body {
 background-color: ffffff;
 }
 
-
 p {
   font-size: 16px;
   font-family: "Raleway", sans-serif;
@@ -49,13 +48,21 @@ h3 {
   margin: 0 auto;
 }
 
-@media screen and (min-width: 575px) {
-img {
-  max-width: 100%;
-  height: auto;
+@media screen and (min-width: 375px) {
+  img {
+    width: 100%;
+  }
+
+  .image-wrapper {
+    margin: 0 auto;    /* to center the image and the wrapper */
+    width: 600px       /* any specific width */
+  }
+  .image-header {
+    margin: 0 auto;    /* to center the image and the wrapper */
+    width: 150px
+  }
 }
-}
-}
+
 
 li {
   font-size: 16px;
