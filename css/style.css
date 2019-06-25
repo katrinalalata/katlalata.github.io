@@ -54,7 +54,7 @@ img {
 
 .image-wrapper {
     margin: 0 auto;
-    width: 600px
+    width: 600px;
   }
 
 .image-header {
@@ -80,7 +80,7 @@ ul{
   font-size: 16px;
   font-family: "Raleway", sans-serif;
   line-height: 24px;
-  max-width: 750px;
+/*  max-width: 750px;*/
   width: 100%;
   margin: 0 auto;
   text-align: left;
@@ -167,8 +167,22 @@ width: 200px;
   p, h1, h2, h3 {
     margin: 0 auto;
     text-align: center;
-    max-width: 375px;
+    max-width: 100%;
     width: 100%;
+  }
+
+  ul {
+    margin: 0 auto;
+    width: 375px;
+  }
+
+  .head {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .container {
+    max-width: 375%;
   }
 
   .image-wrapper {
