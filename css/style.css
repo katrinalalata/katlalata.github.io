@@ -48,20 +48,19 @@ h3 {
   margin: 0 auto;
 }
 
-@media screen and (min-width: 375px) {
-  img {
+img {
     width: 100%;
   }
 
-  .image-wrapper {
+.image-wrapper {
     margin: 0 auto;
     width: 600px
   }
-  .image-header {
+
+.image-header {
     margin: 0 auto;
     width: 150px;
   }
-}
 
 
 li {
@@ -158,4 +157,29 @@ width: 200px;
 
   a:hover {
   color: #D5C63B;
+}
+
+@media screen and (min-width: 375px) {
+  img {
+    width: 100%;
+  }
+
+  p, h1, h2, h3 {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 375px;
+    width: 100%;
+  }
+
+  .image-wrapper {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .image-header {
+    width: 20%;
+  }
+
+  .dropbtn {
+    margin: 0 auto;
+  }
 }
