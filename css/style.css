@@ -54,12 +54,12 @@ h3 {
   }
 
   .image-wrapper {
-    margin: 0 auto;    /* to center the image and the wrapper */
-    width: 600px       /* any specific width */
+    margin: 0 auto;
+    width: 600px
   }
   .image-header {
-    margin: 0 auto;    /* to center the image and the wrapper */
-    width: 150px
+    margin: 0 auto;
+    width: 150px;
   }
 }
 
@@ -159,7 +159,3 @@ width: 200px;
   a:hover {
   color: #D5C63B;
 }
-
-/*a:visited {
-  color: #C4C4C4;
-}*/
