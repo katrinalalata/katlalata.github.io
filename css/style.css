@@ -167,13 +167,13 @@ width: 200px;
   p, h1, h2, h3 {
     margin: 0 auto;
     text-align: center;
-    max-width: 100%;
+    max-width: 280px;
     width: 100%;
   }
 
-  ul {
+  li {
     margin: 0 auto;
-    width: 375px;
+    width: 280px;
   }
 
   .head {
@@ -187,7 +187,86 @@ width: 200px;
 
   .image-wrapper {
     margin: 0 auto;
+    width: 80%;
+  }
+  .image-header {
+    width: 20%;
+  }
+
+  .dropbtn {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 575px) {
+  img {
     width: 100%;
+  }
+
+  p, h1, h2, h3 {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 480px;
+    width: 100%;
+  }
+
+  li {
+    margin: 0 auto;
+    width: 480px;
+  }
+
+  .head {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .container {
+    max-width: 375%;
+  }
+
+  .image-wrapper {
+    margin: 0 auto;
+    width: 80%;
+  }
+  .image-header {
+    width: 20%;
+  }
+
+  .dropbtn {
+    margin: 0 auto;
+  }
+}
+
+
+@media screen and (min-width: 1190px) {
+  img {
+    width: 100%;
+  }
+
+  p, h1, h2, h3 {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 750px;
+    width: 100%;
+  }
+
+  li {
+    margin: 0 auto;
+    width: 750px;
+  }
+
+  .head {
+    margin: 0 auto;
+    width: 50%;
+  }
+
+  .container {
+    max-width: 100%;
+  }
+
+  .image-wrapper {
+    margin: 0 auto;
+    width: 60%;
   }
   .image-header {
     width: 20%;
