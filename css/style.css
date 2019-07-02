@@ -49,17 +49,12 @@ h3 {
 }
 
 img {
-    width: 100%;
-  }
-
-.image-wrapper {
-    margin: 0 auto;
-    width: 600px;
+  max-width: 100%;
   }
 
 .image-header {
-    margin: 0 auto;
-    width: 150px;
+  margin: 0 auto;
+  max-width: 100%;
   }
 
 
@@ -87,7 +82,7 @@ ul{
   padding: 20px;
  }
 
-.head {
+header {
   margin: 0 auto;
   width: 550px;
 }
@@ -96,13 +91,26 @@ ul{
 .container {
 margin: 0 auto;
 padding: 20px;
-/*width: 500px;*/
 }
 
 section.connect {
 margin: 0 auto;
 padding: 50px;
-/*width: 500px;*/
+}
+
+section.aboutme {
+margin: 0 auto;
+padding: 50px;
+}
+
+section.projects {
+margin: 0 auto;
+padding: 50px;
+}
+
+section.blocjams {
+margin: 0 auto;
+padding: 50px;
 }
 
 /* Dropdown Button
@@ -119,6 +127,7 @@ padding: 50px;
 
 .main {
   font-size: 16px;
+  text-align: center;
   }
 
 .main a {
@@ -141,6 +150,30 @@ padding: 50px;
 }
 
 .main .nav-connect {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.connect a {
+  color: #000000;
+  font-family: "poppins", sans-serif;
+  font-weight: bold;
+  display: inline-block
+  font-size: 22px;
+  text-decoration: none;
+}
+
+/*.connect .email {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.connect .linkedin {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.connect .github{
   padding-left: 60px;
   padding-right: 60px;
 }
@@ -181,11 +214,14 @@ width: 200px;
   a {
     color: #000000;
     font-family: "Raleway", sans-serif;
-    font-weight: bold;
   }
 
   a:hover {
   color: #D5C63B;
+}
+
+  a:visited {
+  text-decoration: none;
 }
 
 @media screen and (min-width: 375px) {
@@ -220,6 +256,31 @@ width: 200px;
   }
   .image-header {
     width: 20%;
+  }
+
+  section.connect {
+  margin: 0 auto;
+  padding: 20px;
+  }
+
+  section.aboutme {
+  margin: 0 auto;
+  padding: 20px;
+  }
+
+  section.projects {
+  margin: 0 auto;
+  padding: 20px;
+  }
+
+  section.blocjams {
+  margin: 0 auto;
+  padding: 20px;
+  }
+
+  header {
+    margin: 0 auto;
+    width: 100%;
   }
 
   .dropbtn {
@@ -274,6 +335,31 @@ width: 200px;
   }
   .image-header {
     width: 20%;
+  }
+
+  section.connect {
+  margin: 0 auto;
+  padding: 20px;
+  }
+
+  section.aboutme {
+  margin: 0 auto;
+  padding: 20px;
+  }
+
+  section.projects {
+  margin: 0 auto;
+  padding: 20px;
+  }
+
+  section.blocjams {
+  margin: 0 auto;
+  padding: 20px;
+  }
+
+  header {
+    margin: 0 auto;
+    width: 100%;
   }
 
   .dropbtn {
