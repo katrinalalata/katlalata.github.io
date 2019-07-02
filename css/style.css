@@ -50,8 +50,13 @@ h3 {
 }
 
 img {
-  max-width: 100%;
+  max-width: 80%;
   }
+
+.image-wrapper {
+  margin: 0 auto;
+  width: 600px;
+}
 
 .image-header {
   margin: 0 auto;
