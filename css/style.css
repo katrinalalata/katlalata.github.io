@@ -15,7 +15,7 @@ p {
   width: 100%;
   margin: 0 auto;
   text-align: left;
-  padding: 20px;
+/*  padding: 20px;*/
 }
 
 h1 {
@@ -26,7 +26,7 @@ h1 {
   max-width: 750px;
   width: 100%;
   margin: 0 auto;
-  padding: 20px;
+/*  padding: 20px;*/
 }
 
 h2 {
@@ -54,7 +54,7 @@ img {
   }
 
 .image-wrapper {
-  margin: 0 auto;
+  text-align: center;
   width: 600px;
 }
 
@@ -234,7 +234,6 @@ width: 200px;
   img {
     width: 100%;
   }
-
 
   p, h1, h2, h3 {
     margin: 0 auto;
