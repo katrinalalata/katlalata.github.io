@@ -19,31 +19,34 @@ p {
 }
 
 h1 {
-  font-family: "Poppins", sans-serif;
-  font-size: 36px;
+  font-family: 'DM Serif Display', serif;
+  font-size: 30px;
   letter-spacing: 6px;
   text-align: center;
   max-width: 750px;
   width: 100%;
   margin: 0 auto;
+  padding: 15px;
 /*  padding: 20px;*/
 }
 
 h2 {
   font-family: "Josefin Sans", sans-serif;
-  font-size: 30px;
+  font-size: 28px;
+  font-weight: bold;
   letter-spacing: 3px;
-  line height: 24px;
+  line height: 26px;
   text-align: center;
   max-width: 750px;
   width: 100%;
   margin: 0 auto;
-  padding: 20px;
+  padding-top: 35px;
+  padding-bottom: 20px;
 }
 
 h3 {
   font-family: "Josefin Sans", sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   max-width: 750px;
   width: 100%;
   margin: 0 auto;
@@ -60,9 +63,18 @@ img {
 
 .image-header {
   margin: 0 auto;
-  max-width: 10%;
+  max-width: 8%;
+  padding: 20px;
   }
 
+.mainimg {
+  max-width: 50%;
+}
+.me {
+    max-width: 40%;
+    height: auto;
+    margin: 0 auto;
+  }
 
 li {
   font-size: 16px;
@@ -99,6 +111,7 @@ margin: 0 auto;
 padding: 20px;
 }
 
+
 section.connect {
 margin: 0 auto;
 padding: 50px;
@@ -131,18 +144,41 @@ padding: 50px;
 }
 */
 
+.contents {
+  font-size: 16px;
+  position: fixed;
+  text-align: left;
+  top: 55%;
+  width: 200px;
+  padding: 20px;
+  background-color: #ffffff;
+  }
+
+.contents a {
+  color: #C1C1C1;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 22px;
+  text-decoration: none;
+  font-weight: 200;
+}
+
+.contents .nav-process {
+  padding-bottom: 25px;
+}
+
+
 .main {
   font-size: 16px;
   text-align: center;
   }
 
 .main a {
-  color: #000000;
-  font-family: "poppins", sans-serif;
-  font-weight: bold;
-  display: inline-block
+  color: #E8D0C8;
+  font-family: 'DM Serif Display', serif;
   font-size: 22px;
   text-decoration: none;
+  font-weight: 200;
+  display: inline-block
 }
 
 .main .nav-aboutme {
@@ -161,12 +197,12 @@ padding: 50px;
 }
 
 .connect a {
-  color: #000000;
-  font-family: "poppins", sans-serif;
-  font-weight: bold;
-  display: inline-block
+  color: #E8D0C8;
+  font-family: 'DM Serif Display', serif;
   font-size: 22px;
+  padding-left: 20px;
   text-decoration: none;
+  display: inline-block;
 }
 
 /*.connect .email {
@@ -220,10 +256,12 @@ width: 200px;
   a {
     color: #000000;
     font-family: "Raleway", sans-serif;
+    text-decoration: none;
   }
 
   a:hover {
   color: #D5C63B;
+  text-decoration: none;
 }
 
   a:visited {
@@ -243,7 +281,7 @@ width: 200px;
   }
 
   h2 {
-  font-size: 24px;
+  font-size: 20px;
   }
 
   li {
@@ -265,7 +303,7 @@ width: 200px;
     width: 80%;
   }
   .image-header {
-    width: 50px;
+  max-width: 8%;
   }
 
   section.connect {
@@ -293,10 +331,6 @@ width: 200px;
     width: 100%;
   }
 
-  .dropbtn {
-    margin: 0 auto;
-  }
-
   .main .nav-aboutme {
     padding-left: 20px;
     padding-right: 20px;
@@ -311,6 +345,23 @@ width: 200px;
     padding-left: 20px;
     padding-right: 20px;
   }
+
+  .contents {
+    display: none;
+    }
+
+    .main .nav-aboutme {
+      padding: 20px;
+    }
+
+    .main .nav-projects {
+      padding: 20px;;
+    }
+
+    .main .nav-connect {
+      padding: 20px;
+    }
+
 }
 
 @media screen and (min-width: 575px) {
@@ -347,6 +398,10 @@ width: 200px;
     width: 20%;
   }
 
+  .me {
+    width: 30%;
+  }
+
   section.connect {
   margin: 0 auto;
   padding: 20px;
@@ -372,9 +427,9 @@ width: 200px;
     width: 100%;
   }
 
-  .dropbtn {
-    margin: 0 auto;
-  }
+  .contents {
+    display: none;
+    }
 }
 
 
@@ -411,8 +466,7 @@ width: 200px;
   .image-header {
     width: 20%;
   }
-
-  .dropbtn {
-    margin: 0 auto;
-  }
+  .contents {
+    display: inline;
+    }
 }
