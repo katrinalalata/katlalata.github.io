@@ -213,8 +213,8 @@ max-width: 100%;
 }
 
 section.part {
-  padding-top: 50px;
-  padding-bottom: 50px;
+height: 100vh;
+padding: 50px;
 }
 
 section.connect {
@@ -324,8 +324,8 @@ section.hero {
   text-decoration: none;
   font-weight: 200;
   display: inline-block
-  padding-bottom: 20px;
-  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 .main .nav-aboutme {
@@ -514,9 +514,32 @@ section.hero {
 }
 
 
-/*
+@media screen and (max-width: 375px) {
 
-@media screen and (min-width: 375px) {
+br {
+    display: none;
+  }
+
+.main {
+  position: relative;
+    font-size: 20px;
+    text-align: center;
+    width: 375px;
+    max-width: 100%;
+    top: auto;
+    }
+
+.main a {
+    color: #F5987A;
+    font-family: 'DM Serif Display', serif;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 200;
+    display: inline-block;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
   img {
     width: 100%;
   }
@@ -532,6 +555,16 @@ section.hero {
   font-size: 18px;
   }
 
+  h4 {
+    font-size: 20px;
+    letter-spacing: 1px;
+    max-width: 375px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    color: #000000;
+  }
+
   li {
     margin: 0 auto;
     width: 280px;
@@ -543,7 +576,8 @@ section.hero {
   }
 
   .container {
-    max-width: 375%;
+    max-width: 275px;
+    text-align: center;
   }
 
   .image-wrapper {
@@ -555,8 +589,20 @@ section.hero {
   }
 
   .mainimg {
+  position: inherit;
+  top: auto;
   max-width: 100%;
   }
+
+  section.hero {
+    position: inherit;
+    text-align: center;
+    width: 375px;
+    max-width: 100%;
+    right: auto;
+    top: auto;
+  }
+
 
   section.part {
     padding: 30px;
@@ -587,35 +633,34 @@ section.hero {
     width: 100%;
   }
 
-  .main .nav-aboutme {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-  .main .nav-projects {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-  .main .nav-connect {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
 
   .contents {
     display: none;
     }
 
-    .main .nav-aboutme {
-      padding: 20px;
+    }
+
+  /*  .main .nav-aboutme {
+     letter-spacing: 0px;
     }
 
     .main .nav-projects {
-      padding: 20px;;
+     letter-spacing: 0px;
     }
 
     .main .nav-connect {
-      padding: 20px;
+     letter-spacing: 0px;
+    }
+
+    .blob {
+      position: absolute;
+      top: 0;
+      left: 0;
+      fill: #FFD4C6;
+      width: 20vmax;
+      z-index: -1;
+      animation: move 10s ease-in-out infinite;
+      transform-origin: 50% 50%;
     }
 
 }
