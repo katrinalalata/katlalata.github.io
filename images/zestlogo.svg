@@ -1,0 +1,9 @@
+<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="-0.462963" y="0.462963" width="0.925926" height="34.7884" rx="0.462963" transform="matrix(-1 0 0 1 24.9997 7.14286)" fill="#C4C4C4" stroke="#20B78F" stroke-width="0.925926"/>
+<rect x="-0.653206" y="0.0704872" width="0.913064" height="35.3272" rx="0.456532" transform="matrix(-0.789904 -0.61323 -0.640896 0.767627 36.2103 11.2664)" fill="#C4C4C4" stroke="#20B78F" stroke-width="0.913064"/>
+<rect x="0.0592889" y="-0.342353" width="1.33017" height="35.6585" rx="0.665087" transform="matrix(0.827139 -0.561997 -0.589984 -0.807415 34.7173 39.526)" fill="#20B78F" stroke="#20B78F" stroke-width="0.5"/>
+<rect x="-0.545998" y="-0.330098" width="0.894781" height="36.0679" rx="0.447391" transform="matrix(-0.247468 -0.968896 -0.972938 0.231067 42.2002 20.8137)" fill="#C4C4C4" stroke="#20B78F" stroke-width="0.894781"/>
+<rect x="-0.129754" y="-0.323847" width="1.2961" height="36.3356" rx="0.64805" transform="matrix(0.405448 -0.914118 -0.924463 -0.381271 41.2858 32.2769)" fill="#20B78F" stroke="#20B78F" stroke-width="0.5"/>
+<path d="M45.7963 25C45.7963 36.5615 36.4825 45.9286 25 45.9286C13.5174 45.9286 4.20367 36.5615 4.20367 25C4.20367 13.4386 13.5174 4.07147 25 4.07147C36.4825 4.07147 45.7963 13.4386 45.7963 25Z" stroke="#20B78F"/>
+<circle cx="25" cy="25" r="24.25" stroke="#20B78F" stroke-width="1.5"/>
+</svg>

@@ -1,0 +1,89 @@
+body {
+	width: 100wh;
+	height: 90vh;
+	color: #fff;
+	background: linear-gradient(-45deg, #EC7C4C, #FFB493, #FFF6E6, #FFF6E6);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+h1 {
+  font-family: 'Literata', serif;
+  font-size: 60px;
+  color: #3D3D3D;
+}
+
+h2 {
+  font-family: 'Literata', serif;
+  font-size: 38px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  line-height: 26px;
+  text-align: left;
+  max-width: 750px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 35px;
+  padding-bottom: 20px;
+  color: #696969;
+}
+
+.container {
+  position: fixed;
+  text-align: right;
+  right: 60%;
+  top: 30%;
+  width: 200px;
+  padding-bottom: 20px;
+}
+
+.phone {
+width: 300px;
+height: auto;
+position: absolute;
+right: 200px;
+display: inline-block;
+}
+
+.phone img {
+    width: 100%;
+    height: auto;
+}
