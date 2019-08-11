@@ -568,6 +568,7 @@ section.work {
   transform: scaleX(1);
 }
 
+
 @media screen and (max-width: 375px) {
 
   html {
@@ -1044,6 +1045,7 @@ display: none;
     -webkit-animation-direction: normal, alternate;
     animation-direction: normal, alternate;
   }
+}
 
 
   @-webkit-keyframes hvr-bob {
@@ -1130,7 +1132,9 @@ display: none;
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
   }
+
 }
+
 
 @media screen and (max-width: 575px) {
 

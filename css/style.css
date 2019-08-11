@@ -602,13 +602,45 @@ padding-bottom: 5px;
       -webkit-transform: scaleX(1);
       transform: scaleX(1);
     }
-}
 
+
+    .row-input{
+      width: 70%;
+      padding: 20px;
+      line-height: 2em;
+    }
+
+    .row-input input, textarea{
+      float: right;
+      width: 70%;
+      font-size: 24px;
+    }
+
+    input[type=submit] {
+        padding:5px 15px;
+        background:#ccc;
+        border:0 none;
+        cursor:pointer;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+        position: relative;
+    }
 
 @media screen and (max-width: 375px) {
 
 br {
     display: none;
+  }
+
+  h4 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    max-width: 375px;
+    text-align: right;
+    width: 95%;
+    margin: 0 auto;
+    color: #000000;
   }
 
   h5 {
@@ -619,10 +651,22 @@ br {
     letter-spacing: 0;
     max-width: 375px;
     text-align: center;
-    width: 100%;
+    width: 95%;
     margin: 0 auto;
     color: #696969;
     right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  h6 {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+    color: #4F4F4F;
+    padding-top: 5px;
+    padding-bottom: 5px
   }
 
 .main {
@@ -637,9 +681,9 @@ br {
 
 .main a {
   text-align: center;
-    color: #F5987A;
+    color: #1B162D;
     font-family: "Josefin Sans", sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     text-decoration: none;
     font-weight: 200;
     display: inline-block;
@@ -707,6 +751,12 @@ br {
   }
 
   .mainimg {
+  position: inherit;
+  top: auto;
+  max-width: 100%;
+  }
+
+  .mainimg1 {
   position: inherit;
   top: auto;
   max-width: 100%;
@@ -785,6 +835,492 @@ br {
     letter-spacing: 0;
     text-align: left;
     width: 375px;
+    max-width: 100%;
+    margin: 0 auto;
+    color: #696969;
+    padding: 0;
+  }
+
+
+  .contents {
+    display: none;
+    }
+
+
+  .blob {
+  display: none;
+    }
+
+    .scale-in{
+      display: none;
+    }
+
+
+    .title {
+    	-webkit-animation: tracking-in-expand 2.0s cubic-bezier(0.215, 0.510, 0.255, 1.000) both;
+    	        animation: tracking-in-expand 2.0s cubic-bezier(0.215, 0.510, 0.255, 1.000) both;
+              font-size: 18px;
+              color: #707070;
+              text-align: center;
+              letter-spacing: 4px;
+              padding-bottom: 10px;
+              padding-top: 10px;
+              width: 375px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+
+br {
+    display: none;
+  }
+
+  h4 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    max-width: 575px;
+    text-align: right;
+    width: 95%;
+    margin: 0 auto;
+    color: #000000;
+  }
+
+  h5 {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0;
+    max-width: 575px;
+    text-align: center;
+    width: 95%;
+    margin: 0 auto;
+    color: #696969;
+    right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  h6 {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+    color: #4F4F4F;
+    padding-top: 5px;
+    padding-bottom: 5px
+  }
+
+.main {
+  position: relative;
+    font-size: 20px;
+    text-align: center;
+    width: 575px;
+    max-width: 100%;
+    top: auto;
+    padding: inherit;
+    }
+
+.main a {
+  text-align: center;
+    color: #1B162D;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 200;
+    display: inline-block;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  p, h1, h2, h3 {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 280px;
+    width: 100%;
+  }
+
+  h2 {
+  font-size: 18px;
+  }
+
+  h4 {
+    font-size: 20px;
+    letter-spacing: 1px;
+    max-width: 575px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    color: #000000;
+  }
+
+  li {
+    margin: 0 auto;
+    width: 280px;
+  }
+
+  .me {
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    top: auto;
+    max-width: 100%;
+    right: inherit;
+    }
+
+  .head {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .container {
+  margin: 0 auto;
+  max-width: 575px;
+  text-align: center;
+  max-width: 100%;
+  }
+
+  .image-wrapper {
+    margin: 0 auto;
+    width: 80%;
+  }
+  .image-header {
+  max-width: 10%;
+  }
+
+  .mainimg {
+  position: inherit;
+  top: auto;
+  max-width: 100%;
+  }
+
+  .mainimg1 {
+  position: inherit;
+  top: auto;
+  max-width: 100%;
+  }
+
+  .logo a {
+    color: #D5C63B;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 40px;
+    position: relative;
+    text-align: left;
+    top: auto;
+    left: 0;
+    width: 575px;
+    padding: 0px;
+    }
+
+  section.hero {
+    width: 575px;
+    position: inherit;
+    text-align: center;
+    max-width: 100%;
+    right: inherit;
+    top: auto;
+    padding: inherit;
+  }
+
+  section.aboutme {
+    width: 300px;
+    position: inherit;
+    text-align: center;
+    max-width: 100%;
+    right: auto;
+    left: auto;
+    top: auto;
+    padding: 0px;
+  }
+
+
+  section.part {
+    height: auto;
+    padding: 20px;
+  }
+
+  section.connect {
+  margin: 0 auto;
+  padding: 20px;
+  }
+
+  section.aboutme {
+  margin: 0 auto;
+  padding: 20px;
+  }
+
+  section.projects {
+  margin: 0 auto;
+  padding: 20px;
+  }
+
+  section.blocjams {
+  margin: 0 auto;
+  padding: 20px;
+  }
+
+  header {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+
+  li {
+    font-size: 18px;
+    font-family: 'Noto Serif', serif;
+    font-weight: normal;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: left;
+    width: 575px;
+    max-width: 100%;
+    margin: 0 auto;
+    color: #696969;
+    padding: 0;
+  }
+
+
+  .contents {
+    display: none;
+    }
+
+
+  .blob {
+  display: none;
+    }
+
+    .scale-in{
+      display: none;
+    }
+
+
+    .title {
+    	-webkit-animation: tracking-in-expand 2.0s cubic-bezier(0.215, 0.510, 0.255, 1.000) both;
+    	        animation: tracking-in-expand 2.0s cubic-bezier(0.215, 0.510, 0.255, 1.000) both;
+              font-size: 18px;
+              color: #707070;
+              text-align: center;
+              letter-spacing: 4px;
+              padding-bottom: 10px;
+              padding-top: 10px;
+              width: 375px;
+    }
+}
+
+@media screen and (max-width: 1190px) {
+
+br {
+    display: none;
+  }
+
+  h4 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    max-width: 1190px;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    color: #000000;
+  }
+
+  h5 {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0;
+    max-width: 1190px;
+    text-align: center;
+    width: 95%;
+    margin: 0 auto;
+    color: #696969;
+    right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  h6 {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+    color: #4F4F4F;
+    padding-top: 5px;
+    padding-bottom: 5px
+  }
+
+.main {
+  position: relative;
+    font-size: 20px;
+    text-align: center;
+    width: 1190px;
+    max-width: 100%;
+    top: auto;
+    padding: inherit;
+    }
+
+.main a {
+  text-align: center;
+    color: #1B162D;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 200;
+    display: inline-block;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  p, h1, h2, h3 {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 280px;
+    width: 100%;
+  }
+
+  h2 {
+  font-size: 18px;
+  }
+
+  h4 {
+    font-size: 20px;
+    letter-spacing: 1px;
+    max-width: 1190px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    color: #000000;
+  }
+
+  li {
+    margin: 0 auto;
+    width: 280px;
+  }
+
+  .me {
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    top: auto;
+    max-width: 100%;
+    right: inherit;
+    }
+
+  .head {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .container {
+  margin: 0 auto;
+  max-width: 1190px;
+  text-align: center;
+  max-width: 100%;
+  }
+
+  .image-wrapper {
+    margin: 0 auto;
+    width: 80%;
+  }
+  .image-header {
+  max-width: 10%;
+  }
+
+  .mainimg {
+  position: inherit;
+  top: auto;
+  max-width: 100%;
+  }
+
+  .mainimg1 {
+  position: inherit;
+  top: auto;
+  max-width: 80%;
+  }
+
+  .logo a {
+    color: #D5C63B;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 40px;
+    position: relative;
+    text-align: left;
+    top: auto;
+    left: 0;
+    width: 1190px;
+    padding: 0px;
+    }
+
+  section.hero {
+    width: 1190px;
+    position: inherit;
+    text-align: center;
+    max-width: 100%;
+    right: inherit;
+    top: auto;
+    padding: inherit;
+  }
+
+  section.aboutme {
+    width: 300px;
+    position: inherit;
+    text-align: center;
+    max-width: 100%;
+    right: auto;
+    left: auto;
+    top: auto;
+    padding: 0px;
+  }
+
+
+  section.part {
+    height: auto;
+    padding: 20px;
+  }
+
+  section.connect {
+  margin: 0 auto;
+  padding: 20px;
+  }
+
+  section.aboutme {
+  margin: 0 auto;
+  padding: 20px;
+  }
+
+  section.projects {
+  margin: 0 auto;
+  padding: 20px;
+  }
+
+  section.blocjams {
+  margin: 0 auto;
+  padding: 20px;
+  }
+
+  header {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+
+  li {
+    font-size: 18px;
+    font-family: 'Noto Serif', serif;
+    font-weight: normal;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: left;
+    width: 1190px;
     max-width: 100%;
     margin: 0 auto;
     color: #696969;
