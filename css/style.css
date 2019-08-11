@@ -42,8 +42,8 @@ h1 {
 }
 
 h2 {
-  font-family: 'DM Sans', sans-serif;
-  font-size: 38px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 28px;
   font-weight: 700;
   letter-spacing: 3px;
   line-height: 26px;
@@ -603,8 +603,30 @@ padding-bottom: 5px;
       transform: scaleX(1);
     }
 
+    #form {
+          max-width: 700px;
+          padding: 2rem;
+          box-sizing: border-box;
+        }
 
-    .row-input{
+        .form-field {
+          display: flex;
+          margin: 0 0 1rem 0;
+        }
+        label, input, textarea {
+          width: 70%;
+          padding: 0.5rem;
+          box-sizing: border-box;
+          justify-content: space-between;
+          font-size: 1.1rem;
+          font-family: 'DM Sans', sans-serif;
+        }
+        input {
+          border: 2px solid #aaa;
+          border-radius: 2px;
+        }
+
+  /*  .row-input{
       width: 70%;
       padding: 20px;
       line-height: 2em;
@@ -624,7 +646,7 @@ padding-bottom: 5px;
         -webkit-border-radius: 5px;
         border-radius: 5px;
         position: relative;
-    }
+    }*/
 
 @media screen and (max-width: 375px) {
 
