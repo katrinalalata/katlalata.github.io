@@ -798,7 +798,7 @@ section.work {
     font-family: 'Work Sans', sans-serif;
     line-height: 24px;
   /*  max-width: 750px;*/
-    width: 100%;
+    width: 375px;
     margin: 0 auto;
     text-align: left;
     padding: 0px;
