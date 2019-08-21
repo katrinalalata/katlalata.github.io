@@ -537,9 +537,8 @@ width: 600px;
     position: fixed;
     font-size: 20px;
     text-align: center;
-    top: 0px;
-    width: 575px;
-    height: 70px;
+    width: 520px;
+    height: 150px;
     max-width: 100%;
     top: auto;
     padding: 0px;
@@ -572,7 +571,7 @@ width: 600px;
   .topnav-centered a {
     font-size: 24px;
     float: none;
-    position: absolute;
+    position: fixed;
     top: 5px;;
     left: 0%;
     transform: translate(-50%, -50%);
@@ -609,7 +608,7 @@ width: 600px;
   }
 
   .name {
-    padding: 20px;
+    padding: 0px;
   }
 
 
@@ -685,9 +684,9 @@ width: 600px;
   h1 {
     font-family: 'Work Sans', sans-serif;
     font-weight: 300;
-    font-size: 24px;
+    font-size: 20px;
     line-height: normal;
-    max-width: 555px;
+    max-width: 525px;
     width: 100%;
     text-align: center;
     color: #000000;
@@ -702,7 +701,7 @@ width: 600px;
 position: inherit;
 top: auto;
 max-width: 100%;
-padding-top: 80px;
+padding-top: 100px;
 text-align: center;
   /*position: relative;
   top: 80px;
@@ -711,15 +710,15 @@ text-align: center;
   }
 
   .mainimg img {
-    max-width: 60%;
+    max-width: 45%;
     max-height: auto;
 
   }
 
   .herostatement {
-    position: absolute;
+    position: relative;
     left: 0px;
-    top: 510px;
+    top: auto;
     width: 575px;
   }
 
@@ -730,8 +729,8 @@ text-align: center;
     width: 535px;
     left: 0px;
     padding-top: 450px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
     color: #696969;
     text-align: center;
   }
@@ -750,8 +749,8 @@ text-align: center;
     position: inherit;
     text-align: center;
     width: 300px;
-    max-width: 30%;
-    padding-top: 60px;
+    max-width: 25%;
+    padding-top: 100px;
   }
 
 
@@ -1095,7 +1094,7 @@ text-align: center;
   }
 
   .topnav-right {
-    float: right;
+    float: none;
   }
 
 
@@ -1118,14 +1117,14 @@ text-align: center;
   .title {
     font-family: "Josefin Sans", sans-serif;
     font-size: 20px;
-    max-width: 375px;
+    max-width: 370px;
     width: 100%;
     text-align: left;
     color: #000000;
   }
 
   .name {
-    padding: 20px;
+    padding: 0px;
   }
 
 
@@ -1134,7 +1133,7 @@ text-align: center;
     position: relative;
     top: 20px;
     left: 0px;
-    max-width: 100%;
+    max-width: 365px;
   }
 
   /* display */
@@ -1247,7 +1246,7 @@ text-align: center;
     left: 0px;
     padding-top: 200px;
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 0px;
     color: #696969;
     text-align: center;
   }
@@ -1259,12 +1258,13 @@ text-align: center;
   }
 
   .phoneproject {
-    float: center;
+    position: inherit;
+    max-width: 100%;
+    padding-top: 10px;
+    text-align: center;
   }
 
   .phoneproject img {
-    position: relative;
-    top: auto;
     width: 300px;
     max-width: 50%;
     padding: 30px;
@@ -1273,7 +1273,7 @@ text-align: center;
 
   .hvr-sweep-to-right {
     font-family: 'Bitter', serif;
-    font-size: 24px;
+    font-size: 18px;
     color: #595959;
     display: inline-block;
     vertical-align: middle;
@@ -1392,7 +1392,7 @@ text-align: center;
     left: 0px;
     padding-top: 150px;
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 0px;
   }
 
   .zestheader {
@@ -1431,24 +1431,23 @@ text-align: center;
 
   /* about */
   .about {
-    position: relative;
+    position: sticky;
     text-align: center;
-    max-width: 375px;
-    left: 0px;
+    width: 330px;
     padding-top: 300px;
     padding-bottom: 100px;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
+
   .mainimgkat {
-  position: inherit;
+  position: relative;
   top: auto;
   max-width: 100%;
   text-align: center;
 }
 
   .mainimgkat img {
-  text-align: center;
   max-width: 50%;
   padding-top: 20px;
   padding-bottom:20px;
@@ -1460,7 +1459,7 @@ text-align: center;
     font-size: 40px;
     max-width: 335px;
     width: 100%;
-    text-align: right;
+    text-align: left;
     color: #FA2742;
     padding-bottom: 20px;
   }
@@ -1474,8 +1473,8 @@ text-align: center;
     width: 100%;
     text-align: right;
     color: #373833;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 0px;
+    padding-left: 0px;
   }
 
   section.viewabout {
@@ -1492,27 +1491,27 @@ text-align: center;
   }
 
   .send {
+    max-width: 335px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
-    font-size: 60px;
+    font-size: 40px;
     color: #FA2742;
     padding-top: 100px;
     padding-bottom: 30px;
-    max-width: 335px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .form {
   position: relative;
   top: 30%;
-  left: 0%;
+  left: 0px;
   padding-right: 0px;
-  width: 375px;
+  width: 300px;
   }
 
       #form {
-            max-width: 600px;
+            max-width: 300px;
             padding: 2rem;
             box-sizing: border-box;
           }
