@@ -2144,6 +2144,13 @@ display: none;
     }
   }
   /*user personas*/
+
+  section.part {
+    height: auto;
+    width: 350px;
+    padding: 20px;
+  }
+
   .persona img {
     width: 100px;
   }
