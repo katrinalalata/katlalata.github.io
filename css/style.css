@@ -523,7 +523,7 @@ width: 600px;
 
 
 /* media queries 375pc */
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 375px) {
   /* nav */
   h4 {
   font-family: 'Libre Franklin', sans-serif;
@@ -879,7 +879,7 @@ text-align: center;
 
 
   /* media queries 575pc */
-  @media screen and (min-width: 575px) {
+  @media screen and (max-width: 575px) {
     /* nav */
     h4 {
     font-family: 'Libre Franklin', sans-serif;
