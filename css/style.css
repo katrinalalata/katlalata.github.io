@@ -185,14 +185,22 @@ padding-left: 5%;
 }
 
 /* work content */
+
+.flex-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 5%;
+}
 .projectsection {
   font-family: 'Work Sans';
   position: relative;
-  width: 600px;
-/*  left: 200px;*/
+/*  width: 600px;
+  left: 200px;
   padding-top: 20%;
-  padding-left: 10%;
+  padding-left: 10%;*/
   color: #696969;
+  flex: 1;
+  padding-left: 2%;
 }
 
 .projectheader {
@@ -203,10 +211,12 @@ padding-left: 5%;
 
 .phoneproject {
   position: relative;
-  top: 50px;
-  /*left: 850px;*/
-  padding-left: 60%;
+/*  top: 50px;
+  left: 850px;
+  padding-left: 60%;*/
   display: inline-block;
+  flex: 1;
+  text-align: right;
 }
 
 .phoneproject img {
@@ -263,7 +273,7 @@ padding-left: 5%;
   position: relative;
   text-align: center;
   float: none;
-  padding-top: 200px;
+  padding-top: 0px;
   font-size: 16px;
   font-family:  'Work Sans', sans-serif;
   color: #000000;
@@ -326,15 +336,23 @@ padding-left: 5%;
 
 
 /* zest */
+.flex-wrapperzest {
+  display: flex;
+  align-items: center;
+  padding: 5%;
+}
+
 .zestsection {
   font-family: 'Literata', serif;
   color: #696969;
   font-size: 20px;
   line-height: 160%;
   position: relative;
-  width: 1000px;
+  flex: 1;
+  padding-left: 2%;
+/*  width: 1000px;
   left: 200px;
-  padding-top: 200px;
+  padding-top: 200px;*/
 }
 
 .zestheader {
@@ -359,37 +377,39 @@ padding-left: 5%;
 }
 
 .phonezest {
+  flex: 1;
+  text-align: center;
 }
 
 .phonezest img {
-    position: inherit;
-    top: auto;
+    position: relative;
     width: 300px;
     max-width: 100%;
-    float: left;
-    padding-top: 90px;
-    padding-left: 250px;
+/*    padding-top: 90px;
+    padding-left: 250px;*/
 }
 
 /* about */
+.flex-wrapperabout {
+  display: flex;
+  align-items: center;
+  padding: 5%;
+}
+
+
 h2 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
   font-size: 60px;
-  max-width: 750px;
-  width: 100%;
   text-align: right;
   color: #FA2742;
-  padding-bottom: 20px;
 }
 
 h3 {
   font-family: 'Work Sans', sans-serif;
   font-weight: 400;
   font-size: 18px;
-  max-width: 750px;
   line-height: 140%;
-  width: 100%;
   text-align: right;
   color: #373833;
 }
@@ -401,22 +421,34 @@ background-color: #E8EAE3;
 }
 
 .about {
-  position: sticky;
+  position: relative;
   width: 700px;
-  left: 135px;
-  padding-top: 200px;
+  /*width: 600px;*/
+  flex: 1;
+  padding-left: 2%;
+}
+
+.mainimgkat {
+  position: relative;
+/*  top: 50px;
+  left: 850px;
+  padding-left: 60%;*/
+  flex: 1;
+  text-align: left;
 }
 
 .mainimgkat img {
-position: inherit;
-top: auto;
-max-width: 30%;
-float: right;
-padding-top: 60px;
-padding-right: 150px;
+  position: relative;
+  max-width: 30%;
 }
 
 /* connect */
+.flex-wrapperconnect {
+  display: flex;
+  align-items: center;
+  padding: 10%;
+}
+
 .send {
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
