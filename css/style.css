@@ -63,54 +63,6 @@ mark {
   background-color: #FFFCF7;
 }
 
-/* dropdown menu mq */
-/* Navbar container */
-.navbar {
-  display: none;
-}
-
-/* Links inside the navbar */
-.navbar a {
-  display: none;
-}
-
-/* The dropdown container */
-.dropdown {
-  display: none;
-}
-
-/* Dropdown button */
-.dropdown .dropbtn {
-  display: none;
-}
-
-/* Add a red background color to navbar links on hover */
-.navbar a:hover, .dropdown:hover .dropbtn {
-  display: none;
-}
-
-/* Dropdown content (hidden by default) */
-.dropdown-content {
-  display: none;
-
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-  display: none;
-}
-
-/* Add a grey background color to dropdown links on hover */
-.dropdown-content a:hover {
-  display: none;
-}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: none;
-}
-
-
 /* section title */
 .title {
   font-family: "Josefin Sans", sans-serif;
@@ -238,7 +190,8 @@ padding-left: 5%;
   position: relative;
   width: 600px;
 /*  left: 200px;*/
-  padding-top: 0px;
+  padding-top: 20%;
+  padding-left: 10%;
   color: #696969;
 }
 
@@ -249,17 +202,16 @@ padding-left: 5%;
 }
 
 .phoneproject {
-
+  position: relative;
+  top: 50px;
+  /*left: 850px;*/
+  padding-left: 60%;
+  display: inline-block;
 }
 
 .phoneproject img {
-  position: relative;
-  top: auto;
   width: 300px;
   max-width: 100%;
-  float: right;
-  padding-top: 80px;
-  padding-right: 200px;
 }
 
 
