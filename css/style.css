@@ -529,16 +529,16 @@ width: 600px;
 
   .topnav {
     position: relative;
+    padding-top: 1%;
+    padding-bottom: 1%;
     font-size: 20px;
     text-align: center;
-    top: 0px;
-    width: 375px;
-    height: 70px;
-    max-width: 100%;
+    width: 100%;
     z-index: ;
   }
 
   .topnav a {
+    float: none;
     position: relative;
   display: inline-block;
   color: #000000;
@@ -547,9 +547,8 @@ width: 600px;
   font-size: 18px;
   text-decoration: none;
   font-weight: 200;
-  padding: 10px 10px;
-/*  left: 20%;*/
-  top: 40%;
+  padding: 5px 5px;
+  top: 27px;
   }
 
   .topnav a:hover {
@@ -562,20 +561,26 @@ width: 600px;
     color: white;
   }
 
+.topnav-centered {
+  width: 100%;
+}
+
   .topnav-centered a {
-    width: 375px;
     font-size: 20px;
     text-align: center;
     position: absolute;
-    padding-bottom: 2%;
+    padding: 1%;
     top: 30%;
   /*  left: 54%;*/
     transform: translate(-50%, -50%);
   }
 
+.topnav-right {
+      width: 100%;
+}
   .topnav-right a {
     position: relative;
-    padding-top: 15%;
+    padding-top: 1%;
     float: none;
   }
 
@@ -592,7 +597,7 @@ width: 600px;
     line-height: normal;
     max-width: 375px;
     width: 100%;
-    text-align: right;
+    text-align: center;
     color: #000000;
   }
 
@@ -605,23 +610,23 @@ width: 600px;
   /*top: 90px;
   left: 850px;
   padding-left: 60%;*/
-  display: inline-block;
   flex: 1;
   text-align: center;
-  padding-right: 5%.;
+  padding-top: 10%;
+  padding-bottom: 10%;
   }
 
   .mainimg img {
     max-width: 75%;
     max-height: auto;
-
   }
 
   .herostatement {
     position: relative;
+    line-height: 190%;
     flex: 1;
     padding-left: 4%;
-    width: 420px;
+    width: 340px;
   /*  left: 100px;
   padding-left: 5%;
     top: 280px;
@@ -636,9 +641,11 @@ width: 600px;
   .flex-wrapper {
     display: flex;
     align-items: center;
-    padding: 5%;
+    padding: 0%;
+    flex-direction: column-reverse;
   }
   .projectsection {
+    text-align: center;
     font-family: 'Work Sans';
     position: relative;
   /*  width: 600px;
@@ -648,12 +655,14 @@ width: 600px;
     color: #696969;
     flex: 1;
     padding-left: 2%;
+    padding-right: 2%;
   }
 
   .projectheader {
     font-family: 'Bitter';
-    font-size: 60px;
+    font-size: 40px;
     color: #696969;
+    padding-top: 10%;
   }
 
   .phoneproject {
@@ -661,20 +670,20 @@ width: 600px;
   /*  top: 50px;
     left: 850px;
     padding-left: 60%;*/
-    display: inline-block;
+    display: inline;
     flex: 1;
-    text-align: right;
+    text-align: center;
   }
 
   .phoneproject img {
     width: 300px;
-    max-width: 100%;
+    max-width: 40%;
   }
 
 
   .hvr-sweep-to-right {
     font-family: 'Bitter', serif;
-    font-size: 24px;
+    font-size: 20px;
     color: #595959;
     display: inline-block;
     vertical-align: middle;
@@ -717,6 +726,7 @@ width: 600px;
 
   /* arrow */
   .downArrow {
+    padding-top: 28%;
     position: relative;
     text-align: center;
     font-size: 16px;
@@ -785,16 +795,18 @@ width: 600px;
     display: flex;
     align-items: center;
     padding: 5%;
+    flex-direction: column;
   }
 
   .zestsection {
     font-family: 'Literata', serif;
     color: #696969;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 160%;
     position: relative;
     flex: 1;
-    padding-left: 2%;
+    padding-bottom: 10%;
+    text-align: center;
   /*  width: 1000px;
     left: 200px;
     padding-top: 200px;*/
@@ -803,9 +815,10 @@ width: 600px;
   .zestheader {
     font-family: 'Literata', serif;
     color: #696969;
-    font-size: 48px;
+    font-size: 30px;
     position: relative;
-    padding-bottom: 20px;
+    padding-top: 5%;
+    padding-bottom: 5%;
   }
 
   .comingsoon {
@@ -814,22 +827,24 @@ width: 600px;
     border: none;
     border-radius: 12px;
     color: white;
-    padding: 15px 32px;
+    padding: 10px 27px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 24px;
+    font-size: 18px;
   }
 
   .phonezest {
     flex: 1;
     text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
   }
 
   .phonezest img {
       position: relative;
       width: 300px;
-      max-width: 100%;
+      max-width: 50%;
   /*    padding-top: 90px;
       padding-left: 250px;*/
   }
@@ -845,13 +860,14 @@ width: 600px;
     display: flex;
     align-items: center;
     padding: 5%;
+    flex-direction: column-reverse;
   }
 
 
   h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
-    font-size: 60px;
+    font-size: 40px;
     text-align: left;
     color: #FA2742;
   }
@@ -859,7 +875,7 @@ width: 600px;
   h3 {
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 140%;
     text-align: left;
     color: #373833;
@@ -867,7 +883,7 @@ width: 600px;
 
   .aboutsection {
     position: relative;
-    max-width: 700px;
+    max-width: 100%;
     /*width: 600px;*/
     flex: 1;
     padding-right: 5%;
@@ -885,7 +901,7 @@ width: 600px;
 
   .mainimgkat img {
     position: relative;
-    max-width: 70%;
+    max-width: 50%;
   }
 
   /* connect */
@@ -904,15 +920,16 @@ width: 600px;
   .send {
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
-    font-size: 60px;
+    font-size: 40px;
     color: #FA2742;
-    padding-bottom: 30px;
+    padding-bottom: 10%;
+    padding-top: 50%;
   }
 
   .form {
   position: relative;
-  top: 30%;
-  left: 35%;
+  top: 10%;
+  left: 15%;
   padding-right: 00px;
   width: 600px;
   }
