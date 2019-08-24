@@ -535,12 +535,11 @@ width: 600px;
     width: 375px;
     height: 70px;
     max-width: 100%;
-    padding: 10px;
     z-index: ;
   }
 
   .topnav a {
-  width: 375px;
+    position: relative;
   display: inline-block;
   color: #000000;
   font-family: 'Work Sans', sans-serif;
@@ -549,6 +548,8 @@ width: 600px;
   text-decoration: none;
   font-weight: 200;
   padding: 10px 10px;
+/*  left: 20%;*/
+  top: 40%;
   }
 
   .topnav a:hover {
@@ -566,13 +567,15 @@ width: 600px;
     font-size: 20px;
     text-align: center;
     position: absolute;
-    top: 0px;;
-    left: 0%;
+    padding-bottom: 2%;
+    top: 30%;
+  /*  left: 54%;*/
     transform: translate(-50%, -50%);
   }
 
-  .topnav-right {
-    padding-top: 10px;
+  .topnav-right a {
+    position: relative;
+    padding-top: 15%;
     float: none;
   }
 
