@@ -244,6 +244,11 @@ height: 100vh;
 padding: 50px;
 }
 
+section.part1 {
+/*height: 100vh;*/
+padding: 50px;
+}
+
 section.connect {
 margin: 0 auto;
 padding: 50px;
