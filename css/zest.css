@@ -1,12 +1,4 @@
 body {
-	width: 100wh;
-	height: 90vh;
-	color: #fff;
-	background: linear-gradient(-45deg, #EC7C4C, #FFB493, #FFF6E6, #FFF6E6);
-	background-size: 400% 400%;
-	-webkit-animation: Gradient 15s ease infinite;
-	-moz-animation: Gradient 15s ease infinite;
-	animation: Gradient 15s ease infinite;
 }
 
 @-webkit-keyframes Gradient {
@@ -67,7 +59,7 @@ h2 {
 }
 
 .container {
-  position: fixed;
+  position: relative;
   text-align: right;
   right: 60%;
   top: 30%;
@@ -86,4 +78,89 @@ display: inline-block;
 .phone img {
     width: 100%;
     height: auto;
+}
+
+section.viewworkzest {
+	width: 100wh;
+	height: 100vh;
+	color: #fff;
+	background: linear-gradient(-45deg, #EC7C4C, #FFB493, #FFF6E6, #FFF6E6);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+}
+
+.flex-wrapperzest {
+  display: flex;
+  align-items: center;
+  padding: 5%;
+}
+
+.zestsection {
+  font-family: 'Literata', serif;
+  color: #696969;
+  font-size: 20px;
+  line-height: 160%;
+  position: relative;
+  flex: 1;
+  padding-left: 2%;
+/*  width: 1000px;
+  left: 200px;
+  padding-top: 200px;*/
+}
+
+.zestheader {
+  font-family: 'Literata', serif;
+  color: #696969;
+  font-size: 48px;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.comingsoon {
+  position: relative;
+  border-color: #EC7C4C;
+  border: 10px;
+  border-radius: 12px;
+  color: #EC7C4C;
+  padding: 0px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+}
+
+/*.comingsoon {
+  position: relative;
+  background-color: #EC7C4C;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+}*/
+
+.phonezest {
+  flex: 1;
+  text-align: center;
+}
+
+.phonezest img {
+    position: relative;
+    width: 300px;
+    max-width: 100%;
+/*    padding-top: 90px;
+    padding-left: 250px;*/
+}
+
+
+/*summary*/
+section.zestsummary {
+  width: 100wh;
+height: 100vh;
+background: linear-gradient(190deg, #FFF6E6 60%, #6AD2B6 60%);
 }
