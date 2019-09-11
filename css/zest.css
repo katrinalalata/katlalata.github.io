@@ -358,31 +358,36 @@ ul {
 }
 
 .ufcontainer img {
-	padding: 3%;
+
 }
 
 .list {
-
+margin-left: 10px;
+margin-right: 10px;
 }
 
 .list img {
-	max-height: 30%;
+	height: 30%;
 }
 
 .add {
-
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 .add img {
-	max-height: 30%;
+	height: 30%;
 }
 
 .search {
-
+	margin-left: 10px;
+	margin-right: 10px;
 }
 .search img {
-	max-height: 30%;
+	height: 30%;
 }
+
+
 /*mockup*/
 .mockup {
 	display: flex;
@@ -395,6 +400,7 @@ ul {
 	padding-top: 3%;
 	display: flex;
   flex-direction: row;
+	text-align: center;
 }
 
 .mock img {
