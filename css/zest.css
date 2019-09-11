@@ -119,8 +119,7 @@ h5 {
 
 /*section*/
 section.section {
-/*	width: 100wh;
-height: 100vh;*/
+
 	padding: 3%;
 
 }
@@ -248,7 +247,7 @@ p {
 }
 
 .surveyresults {
-	height: 400px;
+
 }
 
 .surveyresults img {
@@ -367,7 +366,7 @@ margin-right: 10px;
 }
 
 .list img {
-	height: 30%;
+
 }
 
 .add {
@@ -376,7 +375,7 @@ margin-right: 10px;
 }
 
 .add img {
-	height: 30%;
+
 }
 
 .search {
@@ -384,7 +383,7 @@ margin-right: 10px;
 	margin-right: 10px;
 }
 .search img {
-	height: 30%;
+
 }
 
 
@@ -418,7 +417,7 @@ margin-right: 10px;
 }
 
 .sgimg {
-	padding-top: 3%;
+	padding-top: 1%;
 	display: flex;
 	justify-content: center;
 	flex-direction: row;
@@ -467,4 +466,69 @@ margin-right: 10px;
 }
 .phone img {
 	width: 50%;
+}
+
+/*links*/
+a {
+  /*font-family: 'Sanchez', serif;
+  font-weight: 300;
+  float: left;
+  color: #696969;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 16px;*/
+}
+
+a:hover {
+  background-color: #EC7C4C;
+  color: #ffffff;
+}
+
+a.active {
+  background-color: #ffffff;
+  color: white;
+}
+
+a {
+  font-family: 'Sanchez', serif;
+  font-weight: 300;
+  color: #696969;
+	float: left;
+  text-align: center;
+  padding: 16px 13px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.phone a {
+  /*font-family: 'Sanchez', serif;
+  font-weight: 300;
+  float: left;
+  color: #696969;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 16px;*/
+}
+
+.phone a:hover {
+  background-color: #FFF6E6;
+  color: #ffffff;
+}
+
+.phone a.active {
+  background-color: #ffffff;
+  color: white;
+}
+
+.phone a {
+  font-family: 'Sanchez', serif;
+  font-weight: 300;
+  color: #696969;
+	float: left;
+  text-align: center;
+  padding: 16px 13px;
+  text-decoration: none;
+  font-size: 20px;
 }
