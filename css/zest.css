@@ -742,7 +742,7 @@ display: none;
 }
 
 .problemstyle {
-width: 90%;
+
 }
 
 .conclusion {
@@ -767,6 +767,11 @@ width: 90%;
 
 .overview {
 	padding: 1%;
+}
+
+.sgimg img {
+	width: 80%;
+	height: auto;
 }
 
 .zestsection {
