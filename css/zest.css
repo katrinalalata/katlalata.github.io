@@ -281,7 +281,7 @@ p {
   font-size: 18px;
   line-height: 160%;
   position: relative;
-	width: 400px;
+	width: 350px;
   flex: 1;
 	padding-left: 3%;
 }
@@ -297,6 +297,7 @@ ul {
   font-size: 18px;
   line-height: 160%;
   position: relative;
+	width: 350px;
   flex: 1;
 	padding-left: 3%;
 }
@@ -494,8 +495,8 @@ a {
 }
 
 .phone a:hover {
-  background-color: #ffffff;
-  color: #ffffff;
+  background-color: #FFF6E6;
+  color: #FFF6E6;
 }
 
 .noborder a:hover {
