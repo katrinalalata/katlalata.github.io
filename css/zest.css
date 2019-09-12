@@ -210,14 +210,7 @@ section.section {
 }
 
 .problemstyle {
-/*	font-family: 'Sanchez', serif;
-  color: #FFF6E6;
-  font-size: 18px;
-  line-height: 160%;
-  position: relative;
-  flex: 1;
-	width: 70%;
-	height: 100%;*/
+width: 70%;
 }
 
 /*survey*/
@@ -505,13 +498,17 @@ a {
   color: #ffffff;
 }
 
+.noborder a:hover {
+	border: 1px;
+}
+/*
 .mock img:hover {
 border: 1px solid #EC7C4C;
 }
 
 .sgimg img:hover {
 border: 1px solid #EC7C4C;
-}
+}*/
 
 /*mq 1190px*/
 @media screen and (max-width: 1190px) {
@@ -617,7 +614,7 @@ display: none;
 }
 
 
-/*mq 575px*/
+/*mq 375px*/
 @media screen and (max-width: 375px) {
 p {
 	font-size: 16px;
@@ -665,7 +662,10 @@ display: none;
 }
 
 section.section {
-padding: 1%;
+padding-top: 5%;
+padding-bottom: 5%;
+padding-left: 2%;
+padding-right: 2%;
 }
 
 .surveyresults img {
@@ -735,6 +735,16 @@ display: none;
   left: 200px;
   padding-top: 200px;*/
 }
+
+.overviewstyle {
+	width: 90%;
+	font-size: 16px;
+}
+
+.problemstyle {
+width: 90%;
+}
+
 .conclusion {
 	padding-top: 4%;
 	display: flex;
@@ -757,10 +767,6 @@ display: none;
 
 .overview {
 	padding: 1%;
-}
-
-.overviewstyle {
-	font-size: 16px;
 }
 
 .zestsection {
