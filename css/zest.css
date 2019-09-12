@@ -1,8 +1,13 @@
+html {
+		overflow-x: hidden;
+}
+
 body {
 	background: linear-gradient(120deg, #6AD2B6 20%, #FFF6E6 40%);
 	background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+	overflow-x: hidden;
 }
 
 /*titles*/
@@ -628,6 +633,9 @@ display: none;
 
 /*mq 375px*/
 @media screen and (max-width: 375px) {
+	html {
+			overflow-x: hidden;
+	}
 p {
 	font-size: 16px;
 	width: 90%;
